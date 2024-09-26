@@ -68,10 +68,10 @@ def add_new_record():
 
 
 def edit_existing_record():
-    update_name = input('Enter a name to edit: ')
-    new_country = input('Enter new country: ')
-    new_nbr_caught = int(input('Enter number of chainsaws caught: '))
-    conn.execute(f'UPDATE records SET country = ? SET nbr_caught = ? WHERE name = ?', (new_country, new_nbr_caught, update_name))
+    # update_name = input('Enter a name to edit: ')
+    # new_country = input('Enter new country: ')
+    # new_nbr_caught = int(input('Enter number of chainsaws caught: '))
+    # conn.execute(f'UPDATE records SET country = ? SET nbr_caught = ? WHERE name = ?', (new_country, new_nbr_caught, update_name))
     print('todo edit existing record. What if user wants to edit record that does not exist?')
 
 
